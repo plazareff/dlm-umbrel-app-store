@@ -2,6 +2,7 @@
 
 This is the community app store package for the `dlm-app-store` store ID.
 Apps in this store must use IDs prefixed with `dlm-app-store-`.
+The Tiiny Control Panel package uses the upstream 512×512 icon in `icon.png`.
 
 ## Install
 
