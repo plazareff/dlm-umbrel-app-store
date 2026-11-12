@@ -1,0 +1,16 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: dlm-app-store-tiiny-control-panel_server_1
+      APP_PORT: 8765
+
+  server:
+    image: ghcr.io/0xstian/tiiny-control-panel:1.4.1@sha256:19e4b158d5d10f9f1d124f047cd047ce33cb3a73f027a29fe0209f21ab3d7885
+    restart: on-failure
+    init: true
+    environment:
+      TIINY_UI_PORT: "8765"
+      TIINY_UI_GATEWAY_PORT: "8766"
+      TIINY_UI_TLS: "off"
+    volumes:
+      - ${APP_DATA_DIR}/data:/data

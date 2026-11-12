@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: dlm-app-store-tiiny-control-panel
+name: Tiiny Control Panel
+tagline: Manage your Tiiny AI device from Umbrel
+category: ai
+version: "1.4.1"
+description: >-
+  A private web control panel for your Tiiny AI device. After opening the app,
+  configure your Tiiny's LAN address and API key under System → Network.
+
+
+  The panel requires a Tiiny device reachable from your Umbrel network.
+releaseNotes: ""
+developer: Tiiny
+website: https://dev.tiiny.ai/
+dependencies: []
+repo: https://github.com/0xStian/tiiny-control-panel
+support: https://github.com/0xStian/tiiny-control-panel/issues
+port: 41827
+path: ""
+gallery: []
+defaultUsername: ""
+defaultPassword: ""
+submitter: Tiiny Control Panel contributors
+submission: https://github.com/plazareff/dlm-umbrel-app-store
+storage:
+  dataRoot: data
