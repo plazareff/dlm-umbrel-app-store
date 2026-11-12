@@ -17,7 +17,7 @@ website: https://dev.tiiny.ai/
 dependencies: []
 repo: https://github.com/0xStian/tiiny-control-panel
 support: https://github.com/0xStian/tiiny-control-panel/issues
-port: 41827
+port: 34179
 path: ""
 gallery: []
 defaultUsername: ""
