@@ -7,7 +7,9 @@ icon: https://raw.githubusercontent.com/plazareff/dlm-umbrel-app-store/master/dl
 version: "1.4.1"
 description: >-
   A private web control panel for your Tiiny AI device. After opening the app,
-  configure your Tiiny's LAN address and API key under System → Network.
+  configure your Tiiny's LAN address and API key under System → Network. On
+  first launch, get the one-time setup code from setup-code.txt in the app's
+  data files using umbrelOS 2.x Files (in Applications->dlm-app-store-tiiny-control-panel->data->setup-code.txt), then enter it in the panel.
 
 
   The panel requires a Tiiny device reachable from your Umbrel network.
