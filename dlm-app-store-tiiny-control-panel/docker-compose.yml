@@ -5,7 +5,7 @@ services:
       APP_PORT: 8765
 
   server:
-    image: ghcr.io/0xstian/tiiny-control-panel:1.4.1@sha256:19e4b158d5d10f9f1d124f047cd047ce33cb3a73f027a29fe0209f21ab3d7885
+    image: ghcr.io/0xstian/tiiny-control-panel:1.4.3@sha256:bf6eaa67831844dfa6233234ae6f7afcfb88d464ef7c5c07e7fd0e4ddb925049
     restart: on-failure
     init: true
     environment:
